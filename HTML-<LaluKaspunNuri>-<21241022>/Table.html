@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <style>
+    * {
+      font-family: "Courier New", Courier, monospace;
+    }
+  </style>
+  <body>
+    <!-- table simple -->
+    <table border="1px">
+      <tr>
+        <td>baris 1</td>
+        <td>baris 1, kolom 1</td>
+        <td>baris 1, kolom 2</td>
+      </tr>
+      <tr>
+        <td>baris 2</td>
+        <td>baris 2,kolom 1</td>
+        <td>baris 2,kolom 2</td>
+      </tr>
+    </table>
+    <br /><br />
+    <!-- table kompleks -->
+    <table border="1px">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Kolom 1</th>
+          <th>Kolom 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>baris 1</th>
+          <td>baris 1, kolom 1</td>
+          <td>baris 1, kolom 2</td>
+        </tr>
+        <tr>
+          <th>baris 2</th>
+          <td>baris 2,kolom 1</td>
+          <td>baris 2,kolom 2</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br /><br />
+    <!-- table Mergin-->
+    <table border="1px">
+      <tr>
+        <td rowspan="3">rowspan 3</td>
+        <td colspan="2">col span 2</td>
+      </tr>
+      <tr>
+        <td>baris 1, kolom 1</td>
+        <td>baris 1, kolom 2</td>
+      </tr>
+      <tr>
+        <td>baris 2,kolom 1</td>
+        <td>baris 2,kolom 2</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+    <!-- Latihan table mergin -->
+    <table border="1px">
+      <tr>
+        <td>baris 1, kolom 1</td>
+        <td>baris 1, kolom 2</td>
+        <td>baris 1, kolom 3</td>
+        <td>baris 1, kolom 4</td>
+      </tr>
+      <tr>
+        <td>baris 2, kolom 1</td>
+        <td rowspan="2" colspan="2">rowspan 2, colspan 2</td>
+        <td>baris 2, kolom 4</td>
+      </tr>
+      <tr>
+        <td>baris 3, kolom 1</td>
+        <td>baris 3, kolom 4</td>
+      </tr>
+      <tr>
+        <td>baris 4, kolom 1</td>
+        <td>baris 4, kolom 2</td>
+        <td>baris 4, kolom 3</td>
+        <td>baris 4, kolom 4</td>
+      </tr>
+    </table>
+  </body>
+</html>
